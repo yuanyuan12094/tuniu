@@ -1,0 +1,50 @@
+/*Í·²¿logo*/
+.clear{
+    clear:both;
+}
+#header{
+    width:100%;
+}
+#header>div{
+    padding-top:20px;
+    margin-left:100px;
+    float:left;
+    padding-right:10px;
+}
+#header>p{
+    float: left;
+    font: 24px/47px "microsoft yahei";
+    color: #333;
+    height: 47px;
+    border-left: 1px solid #efefef;
+    padding-left: 20px;
+    position: relative;
+    top: 10px;
+}
+#header>h5{
+    float:right;
+    position: relative;
+    top:72px;
+    right:215px;
+}
+#header>h5>a{
+    color:#ff8800;
+    text-decoration: none;
+}
+#section .container{
+    position: relative;
+    margin-top:20px;
+}
+.bg-video{
+    position:absolute;
+    z-index:-1;
+}
+.box{
+    background:rgba(255,255,255,0.8);
+    width:70%;
+    border-radius:5px;
+    min-height:300px;
+    box-shadow:0 0 5px #aaa;
+    margin:80px auto;
+    padding:10px;
+}
